@@ -1,11 +1,79 @@
-Jogo de tabuleiro feito totalmente em java. 
-tem 6 jogadores maximos e as cores possíveis são : RED, BLUE, GREEN, YELLOW, BLACK, WHITE
-existe um modo debug, onde você pode adicionar manualmente quantas casas os jogadores vão andar ou modo normal, rodando 2 dados e caminhando o número que caiu.
+# Jogo de Tabuleiro
 
-existem as casas especiais: 
-TileDontPlay - não joga na prox rodada
-TileChange - tira 3 cartas, dependendo da carta sua sorte muda.
-TileLucky - se torna sortudo, aumentando a soma dos dados
-TileSwitch - Troca de lugar com o earlyst player
-TileJogaDeNovo - Joga de novo os dados
-TileTroca - Pode fazer uma troca, escolhendo entre 3 itens 
+Um jogo de tabuleiro totalmente desenvolvido em Java com suporte para até 6 jogadores, modos de jogo variados e mecânicas especiais de gameplay.
+
+## 🎮 Características
+
+### Jogadores e Cores
+- Suporte para **até 6 jogadores simultâneos**
+- Cores disponíveis: RED, BLUE, GREEN, YELLOW, BLACK, WHITE
+
+### Modos de Jogo
+- **Modo Normal**: Mecânica tradicional com dois dados (d6)
+- **Modo Debug**: Controle manual do movimento dos jogadores para testes e prototipagem
+
+### Casas Especiais
+
+| Casa | Efeito |
+|------|--------|
+| **TileDontPlay** | O jogador não pode jogar na próxima rodada |
+| **TileChange** | Retira 3 cartas; a sorte muda conforme a carta sorteada |
+| **TileLucky** | Ativa o modo sortudo, aumentando a soma dos dados do jogador |
+| **TileSwitch** | Troca de posição com o jogador mais adiantado |
+| **TileJogaDeNovo** | O jogador joga novamente os dados nesta rodada |
+| **TileTroca** | Permite trocar posição, escolhendo entre 3 itens disponíveis |
+
+## 🛠️ Tecnologias
+
+- **Linguagem**: Java
+- **Paradigma**: Orientado a Objetos
+
+## 📋 Pré-requisitos
+
+- Java JDK 8 ou superior
+- Maven ou Gradle (se aplicável)
+
+## 🚀 Como Começar
+
+### Compilação
+
+```bash
+javac -d bin src/**/*.java
+```
+
+### Execução
+
+```bash
+java -cp bin Main
+```
+
+## 📝 Estrutura do Projeto
+
+```
+JogoDetabuleiro/
+├── src/
+│   └── [código-fonte Java]
+├── bin/
+│   └── [arquivos compilados]
+└── README.md
+```
+
+## 🎯 Próximas Melhorias
+
+- [ ] Interface gráfica (GUI)
+- [ ] Sistema de persistência de partidas
+- [ ] Ranking e estatísticas
+- [ ] Testes unitários
+- [ ] Documentação JavaDoc
+
+## 📄 Licença
+
+Este projeto é de código aberto.
+
+## ✉️ Contato
+
+Para dúvidas ou sugestões, abra uma issue no repositório.
+
+---
+
+**Desenvolvido com ☕ em Java**
