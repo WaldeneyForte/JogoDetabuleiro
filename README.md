@@ -89,16 +89,4 @@ Tile (abstrata)
 └── TileTroca
 ```
 
-## 🎯 Próximas Melhorias
 
-- [ ] Interface gráfica (GUI)
-- [ ] Sistema de persistência de partidas
-- [ ] Ranking e estatísticas
-- [ ] Testes unitários
-- [ ] Documentação JavaDoc
-
-
-
----
-
-**Desenvolvido com ☕ em Java**
