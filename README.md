@@ -23,15 +23,6 @@ Um jogo de tabuleiro totalmente desenvolvido em Java com suporte para até 6 jog
 | **TileJogaDeNovo** | O jogador joga novamente os dados nesta rodada |
 | **TileTroca** | O jogador compra um item que pode dar buff ou debuff |
 
-## 🛠️ Tecnologias
-
-- **Linguagem**: Java
-- **Paradigma**: Orientado a Objetos
-
-## 📋 Pré-requisitos
-
-- Java JDK 8 ou superior
-- Maven ou Gradle (se aplicável)
 
 ## 🚀 Como Começar
 
