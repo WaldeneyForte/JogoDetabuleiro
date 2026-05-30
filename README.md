@@ -24,19 +24,7 @@ Um jogo de tabuleiro totalmente desenvolvido em Java com suporte para até 6 jog
 | **TileTroca** | O jogador compra um item que pode dar buff ou debuff |
 
 
-## 🚀 Como Começar
 
-### Compilação
-
-```bash
-javac -d bin src/**/*.java
-```
-
-### Execução
-
-```bash
-java -cp bin Main
-```
 
 ## 📝 Estrutura do Projeto
 
@@ -109,13 +97,7 @@ Tile (abstrata)
 - [ ] Testes unitários
 - [ ] Documentação JavaDoc
 
-## 📄 Licença
 
-Este projeto é de código aberto.
-
-## ✉️ Contato
-
-Para dúvidas ou sugestões, abra uma issue no repositório.
 
 ---
 
